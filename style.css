@@ -1,0 +1,279 @@
+body {
+  /* background-image: url("61d7d0c9013938c981f13aaba1747cb0--forest-wallpaper-beautiful-wallpaper.jpg");
+  background-image: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  justify-content:space-between;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+ 
+  
+}
+.headers{
+  
+  display:flex;
+  justify-content: center;
+  
+  
+}
+.drawing{
+  width:500px;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+  
+  position: relative;
+  float:center;
+  vertical-align: middle;
+  display: inline-block;
+  /* display:flex;
+  justify-content: center; */
+}
+
+#jay{
+  margin-top:30px;
+  margin-left:20px;
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+header{
+  color: white;
+  background-color:black;
+  font-size: 40px;
+  width: 370px;
+  text-align: center;
+  margin: auto;
+  margin-right:0;
+  margin-left: 100px;
+  margin-top: 10px;
+  
+  border-radius: 20px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+/*hangmanpicture----------*/
+.hangTime{
+ 
+  font-size: 50px;
+
+  
+}
+#hangTime1 hr{
+  margin-top:40px;
+  width:250px;
+  height: 15px;
+  color: rgb(121, 96, 96);
+  background-color: rgb(121, 96, 96);
+  margin-bottom:0;
+  /* margin-left: 350px; */
+  border:  rgb(121, 96, 96);
+}
+
+
+#hangTime2{
+  display:flex;
+}
+#hangTime3{
+  display:flex;
+  position: relative;
+  top: -20px;
+}
+#hangTime4{
+  display:flex;
+  position: relative;
+  top: -45px;
+}
+#hangTime5{
+  display:flex;
+  position: relative;
+  top: -65px;
+}
+#hangTime6{
+  display:flex;
+  position: relative;
+  top: -80px;
+}
+#hangTime7{
+  display:flex;
+  position: relative;
+  top: -90px;
+}
+#hangTime8{
+  display:flex;
+  position: relative;
+  top: -90px;
+}
+
+#hangTime21{
+  left:110px;
+  position: relative; 
+  
+}
+#hangTime211{
+   position: relative;
+  left: 300px;
+}
+#hangTime31{
+  position: relative;
+  left: 110px;
+}
+#hangTime311{
+  position: relative;
+  left: 300px;
+  
+}
+#hangTime41{
+  position: relative;
+  left: 110px;
+}
+#hangTime411{
+  position: relative;
+  left: 285px;
+}
+#hangTime412{
+  position: relative;
+  left: 305px;
+}
+#hangTime413{
+  position: relative;
+  left: 305px;
+}
+#hangTime51{
+  position: relative;
+  left: 110px;
+}
+#hangTime512{
+  position: relative;
+  left: 305px;
+  bottom:10px;
+}
+#hangTime513{
+  position: relative;
+  left: 305px;
+  bottom:10px;
+}
+#hangTime61{
+  position: relative;
+  left: 110px;
+}
+#hangTime71{
+  position: relative;
+  left: 120px;
+}
+#hangTime7 hr{
+  
+  width:250px;
+  height: 15px;
+  color:black;
+  background-color: black;
+  margin-bottom:0;
+  /* margin-left: 0px; */
+  border:  black;
+  margin-top: 0;
+}
+#hangTime8 hr{
+  
+  width:250px;
+  height: 15px;
+  color: black;
+  background-color: black;
+  margin-bottom:0;
+  margin-left: 120px;
+  border:  black;
+  bottom: 100px;
+  margin-top: 0;
+
+}
+
+
+#reset{
+  margin: auto;
+  display: flex;
+  /* justify-content: center; */
+}
+.letters{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.letters li {
+  
+  margin: 0 15px 15px 0;
+  list-style:none;
+  width:25px;
+  height:20px;
+  padding:20px;
+  border-radius: 5px;
+  background:rgb(187, 162, 181);
+  color:rgb(21, 37, 41);
+  font-size: 30px;
+  cursor:pointer;
+  
+  
+  border: solid 1px white;
+  
+  
+  
+    
+   
+}
+#fieldForCorrectWord{
+/* margin-right:0; */
+margin:0;
+  background-color: blue;
+  height: 70px;
+  width: 480px;
+  position: relative;
+display: flex;
+/* left: 240px; */
+/* margin-bottom: 30px; */
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
+
+  /* justify-content: center; */
+
+
+}
+.guesses{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 450px;
+  left: 460px;
+  margin-bottom: 30px;
+
+}
+.guesses .guess{
+font-size: 50px;
+  list-style:none;
+  margin-right:8px;
+  margin-bottom: 30px;
+}
+#reset{
+  font-size: 30px;
+}
+
+#hangTime211, #hangTime311, #hangTime411, #hangTime412,
+#hangTime413, #hangTime512,
+#hangTime513{
+  opacity: 1;
+}
