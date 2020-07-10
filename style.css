@@ -275,5 +275,5 @@ font-size: 50px;
 #hangTime211, #hangTime311, #hangTime411, #hangTime412,
 #hangTime413, #hangTime512,
 #hangTime513{
-  opacity: 1;
+  opacity: 0;
 }
