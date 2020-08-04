@@ -59,7 +59,7 @@ for (let i = 0; i < alphabet.length; i++) {
             let letter = e.target.innerHTML;
             console.log(e.target.innerHTML);
             list.style.background = "red";
-            if (randomWord.includes(letter, -100)) {
+            if (randomWord.includes(letter, 0)) {
 
                   getWordPosition(letter);
                   list.style.background = "blue";
